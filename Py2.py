@@ -11,6 +11,3 @@ print(f'{friend}ยืมเงิน {money} บาท')              # f ม�
 
 money = 14500020492
 print(f'{money:,.2f}')
-
-import math
-math.pi
