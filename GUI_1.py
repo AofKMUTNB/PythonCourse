@@ -24,6 +24,12 @@ E1 = Entry(GUI)
 E1.grid(row=1,column=1,padx=20,pady=20)
 
 L3 = Label(GUI,text='รายจ่าย', font=('Angsana New',15),fg='black')
-L3.grid(row=2,column=1,padx=20,pady=20,sticky='W')
+L3.grid(row=2,column=0,padx=20,pady=20,sticky='W')
+
+E2 = Entry(GUI)
+E2.grid(row=2,column=1,padx=20,pady=20)
+
+B1 = ttk.Button(GUI,text='คำนวณ',style='TButton',command=Button1)
+B1.grid(row=4,column=0,padx=20,pady=20,columnspan=2) 
 
 GUI.mainloop()
